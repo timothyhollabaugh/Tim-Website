@@ -4,3 +4,15 @@ site_description: A website about my stuff
 site_author: Tim Hollabaugh
 site_favicon: null
 docs_dir: src
+repo_url: https://github.com/chickenchuck040
+pages:
+  - Home: index.md
+  - 4-H:
+    - Robostorm: robostorm.md
+    - RC Car Club: rccars-4h.md
+  - 3d Printer: 3dprinter.md
+  - Tricopters:
+    - Mini Tricopter: minitricopter.md
+    - Large Tricopter: largetricopter.md
+  - Slotcar Lap Counter: lapcounter.md
+  - RC Car: rccar.md
