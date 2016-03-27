@@ -1,0 +1,6 @@
+site_name: Tim's Website
+theme: yeti
+site_description: A website about my stuff
+site_author: Tim Hollabaugh
+site_favicon: null
+docs_dir: src
