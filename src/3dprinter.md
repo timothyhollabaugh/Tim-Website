@@ -1,6 +1,6 @@
 # 3D Printer
 ---
-![Printer Image](printer.jpg)
+![Printer Image](img/printer.jpg)
 
 I have wanted a 3d printer ever since I saw one in a tech magazine (I don't remember which one). My interests were further developed at Rutger's Day that year. There, they had their Makerbot Cupcake 3d printer. Although it was not operational at the time, I was intrigued. I kept on to the want for about year, constantly nagging my dad the whole time. I was delighted when, about December, he finally decided to buy me one; the deal was that I had to get an A in math, and I did. The printer selection process was long and tedious, but we finally decided in the [RepRapPro Trocolour Mendel](http://reprap.org/wiki/RepRapPro_Tricolour). We chose this printer for many reasons. One of the main things that I liked about it was that it came as a kit. This meant that I had to build it, which was a fun learning experience. Additionally, we thought that the three print heads would come in use one day, although we did not yet know for what. Furthermore, I also liked the idea that the printer can print all the plastic parts for the printer. This makes it easier to make another if we ever wanted to.
 
@@ -10,7 +10,7 @@ Once the printer was initially working, I starting making modifications and chan
 
 ## Azteeg X3 Pro Control Board
 
-![Azteeg Image](azteeg.jpg)
+![Azteeg Image](img/azteeg.jpg)
 
 The default Melzi control boards that came with the kit were never designed to control more than one extruder. It was set up so that there was two melzi boards: One that controlled the movement of the printer and one print head, and the other controlled the other two print heads. They were then loaded with modified firmware that allowed them to talk to each other over a serial connection. Unfortunately, they serial connection was not very robust. There would constantly be communication issues, resulting in the reported temperature being unusable. This would cause all sorts of problems, and resulted in two of the three print heads being unusable most of the time. This lead to the decision to buy a new control board for the printer, that would handle all the print heads. I settled on the [Azteeg X3 Pro](https://www.panucatt.com/Azteeg_X3_Pro_p/ax3pro.htm). The Azteeg was one of the only control boards that I found that could effectively handle three print heads. Most control board could only handle one or two, as most printers only have one or two print heads. Once it came in the mail, I had to wire it. Wiring proved to be fairly simple, as it was a matter of screwing the right wire into the right screw terminal. The other challenge was configuring and compiling my own [Marlin](https://github.com/MarlinFirmware/Marlin) firmware. I had to go through the configuration file and set everything to match my printer. One everything was wired and configured, the Azteeg worked perfectly. It was worked wonderfully ever since. I have used the extra outputs to power a light on my printer, as well as a cooling fan, and to make the fan on the hot end only turn on when it is hot.
 
@@ -28,7 +28,7 @@ Although the Octoprint web interface is great for normal printing, it can be ann
 
 ### Touchscreen
 
-![Touchscreen Image](touchscreen.jpg)
+![Touchscreen Image](img/touchscreen.jpg)
 
 When the official Raspberry Pi Touchscreen was released, I decided that it would work much better to control the printer than the buttons and LCD that I was using before. After receiving a touchscreen along with the new Raspberry Pi 2, I set to work on an [Octoprint plugin for the touchscreen](https://github.com/chickenchuck040/OctoPrint-Lcd). By using the plugin API instead of the REST network API that I had used before, I would hook directly into Octoprint without having to constantly send it network requests. I used a graphics library called [Kivy](kivy.org) to handle the touchscreen, which made graphics much easier. Furthermore, because Kivy is cross-platform, I was able to run Octoprint with my plugin on my laptop for development. This proved to work much better than the LCD and buttons, and also provided a much nice interface and more features.
 

@@ -1,7 +1,7 @@
 # Mini Tricopter
 ---
 
-![Mini Tricopter Image](minitricopter.jpg)
+![Mini Tricopter Image](img/minitricopter.jpg)
 
 Ever since I have seen my friend's commercial multirotor, I have wanted to build my own. I decided early on that it would be a tricopter, due to its unique flight style and slightly lower expense (3 motors, speed controllers, and propellers instead of four). Tricopters have the unique feature of having a servo on the rear motor to turn, rather than changing the speeds of the motors to turn from the counter rotational force.
 
