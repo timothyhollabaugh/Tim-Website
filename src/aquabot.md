@@ -1,5 +1,6 @@
 # Aquabot
 ---
+![Aquabot Picture](img/aquabotside.jpg)
 
 During one of the first fairs that [Robostorm](robostorm.md) had had a tent at, we noticed that it was very hot at the fair, and no one wanted to venture into the sun to buy water from a vendor. It is from this that we can up the the Aquabot, a robot that brings the water to you.
 
