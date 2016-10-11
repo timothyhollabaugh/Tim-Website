@@ -15,4 +15,4 @@ After some issues with blowing stepper drivers (They don't like to be powered wi
 
 [!Image of the control board](img/cyclone-control.jpg)
 
- 
+After some initial calibration to figure out the milling depth and width, I was ready to try my first board. It was a breakout for the Raspberry Pi on my 3d printer, to replace a perfboard that I have made earlier. All it had to do was combine power, some GPIOs, USB and audio into a 9 pin serial connector to interface with the printer. My setup before had worked, but it was a bit fluky, and needed to be replaced. The board was good for a test, as it was small, and there was nothing particularly difficult. I used 1mm traces to ensure that even if the Dremel cut too wide, it would still work. it turned out to work just fine, and is now serving its duty on the printer. 
