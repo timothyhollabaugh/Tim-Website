@@ -32,4 +32,8 @@ As I had just began driving, I wanted to know my gas mileage, so I decided to ma
 [!Image of the blank SOIC test](img/cyclone-soic-blank.jpg)
 [!Image of the SOiC test](img/cyclone-soic-chip.jpg)
 
-The other difficulty was that routing all the traces on the board would have required many jumpers. Because I could, I decided to try making a double sided board. That came with two challenges: Aligning the two sides, and connecting the vias.
+The other difficulty was that routing all the traces on the board would have required many jumpers. Because I could, I decided to try making a double sided board. That came with two challenges: Aligning the two sides, and connecting the vias. The alignment problem is typically solved by drilling a couple of alignment holes through the PCB and into a scrap piece of wood below it. I did not want to use a scrap piece of wood, as it meant it would need to be replace often. My solution was to drill holes in the board to align with holes in my printed workbed. I used one large PCB the size of the bed, and drilled holes in the corners. This way, it would be a mirror image when I flipped it over. I would need to manually flip and move the Gcode for the bottom of the board in the GUI that I use (BCNC) to match what what was on the top. Luckily, it worked out fine, but ther holes were not quite lined up, but they were good enought to solder.
+
+[!Image of the finished OBD board](img/cyclone-obd.jpg)
+
+
