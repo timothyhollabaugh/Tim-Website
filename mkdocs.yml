@@ -14,6 +14,7 @@ pages:
     - Nametag Web App: nametagautoprinting.md
   - FIRST: daleks.md
   - 3d Printer: 3dprinter.md
+  - Cyclone PCB Mill: cyclone.md
   - Tricopters:
     - Mini Tricopter: minitricopter.md
     - Large Tricopter: largetricopter.md
