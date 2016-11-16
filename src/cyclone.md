@@ -40,10 +40,11 @@ The other difficulty was that routing all the traces on the board would have req
 
 ### Brushless Spindle
 
-![Image of the spindle](spindle.png
+![Image of the spindle](img/spindle.jpg)
+![Imgae of the spindle opened](img/spindleopen.jpg)
 
 After a while of using the Dremel as a spindle, it became evident that it was not up to the job. The spindle had too much runout, and I somehow managed to bend to shaft on one of them. I wondered if it would be possible to use a brushless motor, as used on multirotors, as a spindle. I did some research, and found that many people were using large brushess motors for spindles. The key was to get a motor with an 8mm shaft that could be removed, as it happens that the smallest size for a collet extention has an 8mm shaft. The collet extention could simply replace the shaft in the motor. I found that the only motors of this size available were either too expensive, or out of stock. They also seemed to be way overkill for PCB milling. I did some math, and found that an old copter motor I had used on my [Tricopter](minitricopter.md) had about the same power as the Dremel, and had about the same max speed. The only challenge was to connect the 5mm screw shaft of the motor to the 8mm collet extention, in such a way that it was balenced at 30,000 RPM. I ended up with a hose pressed over some nuts on the motor shaft, and zip tied over the collet extention. It is not perfectly balenced, but seems to be better than the Dremel.
 
-![Crossection of the spindle](spindlecut.png)
+![Crossection of the spindle](img/spindlecut.png)
 
 I also had to design an enclosure for the spindle, ideally the same size of the Dremel to fit into its mounts. I decided to use a CAD program called [Onshape](https://www.onshape.com/), because it would allow working on it from school. Onshape is a full browser CAD that aims to compete with CADs such as Autodesk for modeling. I have found that it works very well, and is easier to use that other CAD softwares. I was able to model the entire spindle, including the motor, collet extention, hose, screws, and nuts that would be used. The model is available for anyone to veiw [on Onshape](https://cad.onshape.com/documents/2160b9641f37717be3bf280d/w/9c6fe6c0d14768184fa9a563/e/5a8781c1465b9b6b1cb1d99e).
