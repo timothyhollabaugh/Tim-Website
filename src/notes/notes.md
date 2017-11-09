@@ -6,7 +6,7 @@
 
 [Calculus/GlobalExtrema.html](Calculus/GlobalExtrema.html)
 
-[Calculus/Integration?.html](Calculus/Integration?.html)
+[Calculus/Integration.html](Calculus/Integration.html)
 
 [Calculus/MoreInte.html](Calculus/MoreInte.html)
 
@@ -16,13 +16,9 @@
 
 [Calculus/Nov 06 4.26PM.html](Calculus/Nov 06 4.26PM.html)
 
-[Calculus/Oct 24 12.14PM.html](Calculus/Oct 24 12.14PM.html)
-
 [Calculus/Oct 26 8.39AM.html](Calculus/Oct 26 8.39AM.html)
 
 [Calculus/Oct 27 12.27PM.html](Calculus/Oct 27 12.27PM.html)
-
-[Calculus/Optimizations.html](Calculus/Optimizations.html)
 
 [Calculus/Sep 05 9.01PM.html](Calculus/Sep 05 9.01PM.html)
 
@@ -92,13 +88,7 @@
 
 [DiscreteMath/Nov 02 6.42PM.html](DiscreteMath/Nov 02 6.42PM.html)
 
-[DiscreteMath/Oct 31 3.31PM.html](DiscreteMath/Oct 31 3.31PM.html)
-
 [DiscreteMath/ProofByInductio.html](DiscreteMath/ProofByInductio.html)
-
-[DiscreteMath/Section18-2.html](DiscreteMath/Section18-2.html)
-
-[DiscreteMath/Section18-3.html](DiscreteMath/Section18-3.html)
 
 [DiscreteMath/Section18.html](DiscreteMath/Section18.html)
 
