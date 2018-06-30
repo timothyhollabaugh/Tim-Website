@@ -1,4 +1,14 @@
-# Cylcone PCB Mill
+# PCB Mill
+---
+
+![Picure of PCB Mill](img/pcbmill.jpg)
+
+The [Cyclone PCB Mill](#Cyclone PCB Mill) that I had build worked, but it had a few issues. Notably, the Z axis was only held down by gravity, causing it to not cut deep enough. The threaded rods were not perfectly straight, flexing the less than rigid frame as they turned, causing wobbly lines. In the end, I decided to design and print my own PCB mill, learning from the Cyclone. After months of design, days of 3d printing, and a week of assembly, I had a functioning PCM mill. The full CAD is available [on Onshape](https://cad.onshape.com/documents/d7a0a1af0ffbef29409d765e/w/9b1ed22ed08c4581eb29e698/e/f135e34f487e4d8adc7e2ebd).
+
+Here are some of the first tests:
+![Picture of PCB Mill tests](img/pcbmill-tests.jpg)
+
+# Cyclone PCB Mill
 ---
 
 ![Picture of Cyclone](img/cyclone.jpg)
