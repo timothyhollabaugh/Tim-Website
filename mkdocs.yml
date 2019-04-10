@@ -14,6 +14,7 @@ pages:
     - Nametag Web App: nametagautoprinting.md
   - FIRST: daleks.md
   - Projects:
+    - Micromouse: micromouse.md
     - 3d Printer: 3dprinter.md
     - PCB Mill: cyclone.md
     - Mini Tricopter: minitricopter.md
