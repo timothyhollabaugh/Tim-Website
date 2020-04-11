@@ -1,9 +1,9 @@
 +++
 title = "Building a printer"
-date = 2016-03-27
+date = 2014-09-01
 +++
 
-![Printer Image](img/printer.jpg)
+![Printer Image](tricolour.jpg)
 
 I have wanted a 3d printer ever since I saw one in a tech magazine (I don't remember which one). My interests were further developed at Rutger's Day that year. There, they had their Makerbot Cupcake 3d printer. Although it was not operational at the time, I was intrigued. I kept on to the want for about year, constantly nagging my dad the whole time. I was delighted when, about December, he finally decided to buy me one; the deal was that I had to get an A in math, and I did. The printer selection process was long and tedious, but we finally decided in the [RepRapPro Trocolour Mendel](http://reprap.org/wiki/RepRapPro_Tricolour). We chose this printer for many reasons. One of the main things that I liked about it was that it came as a kit. This meant that I had to build it, which was a fun learning experience. Additionally, we thought that the three print heads would come in use one day, although we did not yet know for what. Furthermore, I also liked the idea that the printer can print all the plastic parts for the printer. This makes it easier to make another if we ever wanted to.
 
