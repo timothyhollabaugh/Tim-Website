@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+
+{% block content %}
+<nav class="breadcrumb" aria-label="breadcrumb">
+    <ul>
+        {% for ancestor_path in section.ancestors %}
+            {% set ancestor = get_section(path=ancestor_path) %}
+            <li><a href={{ ancestor.permalink }}>{{ ancestor.title }}</a></li>
+        {% endfor %}
+        <li><a href={{ section.permalink }}>{{ section.title }}</a></li>
+    </ul>
+</nav>
+
+<h1 class="title">
+    {{ section.title }}
+</h1>
+
+<div>
+    {% for page in section.pages %}
+        <a class="box" href="{{ page.permalink }}">
+            <span class="title is-5">
+                {{ page.title }}
+            </span>
+            <span class="is-pulled-right">
+                {{ page.date }}
+            </span>
+        </a>
+    {% endfor %}
+    {% for subsection_path in section.subsections %}
+        {% set subsection = get_section(path=subsection_path) %}
+        <a class="box" href="{{ subsection.permalink }}">
+            <span class="title is-5">
+                {{ subsection.title }}
+            </span>
+            <span class="is-pulled-right">
+                {{ subsection.pages | length }} pages
+            </span>
+        </a>
+    {% endfor %}
+</div>
+{% endblock content %}

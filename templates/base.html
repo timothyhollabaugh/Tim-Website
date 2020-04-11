@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Tim's Website</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+    </head>
+
+    <body>
+        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item has-text-weight-bold" href="/">
+                    Tim's Website
+                </a>
+            </div>
+            <div class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="/projects">
+                        Projects
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <section class="section">
+            <div class="container">
+                {% block content %} {% endblock %}
+            </div>
+        </section>
+    </body>
+
+</html>
