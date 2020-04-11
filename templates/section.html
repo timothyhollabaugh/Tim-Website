@@ -15,24 +15,32 @@
     {{ section.title }}
 </h1>
 
-<div>
+<div class="list">
     {% for page in section.pages %}
-        <a class="box" href="{{ page.permalink }}">
-            <span class="title is-5">
+        <a class="list-item" href="{{ page.permalink }}">
+            {% if page.extra.image %}
+                <img class="image is-128x128" src="{{ subsection.extra.image }}" alt=""/>
+            {% endif %}
+            <span class="list-item-title">
                 {{ page.title }}
             </span>
-            <span class="is-pulled-right">
+            <span class="list-item-center"></span>
+            <span class="list-item-date">
                 {{ page.date }}
             </span>
         </a>
     {% endfor %}
     {% for subsection_path in section.subsections %}
         {% set subsection = get_section(path=subsection_path) %}
-        <a class="box" href="{{ subsection.permalink }}">
-            <span class="title is-5">
+        <a class="list-item" href="{{ subsection.permalink }}">
+            {% if subsection.extra.image %}
+                <img class="list-item-image" src="{{ subsection.extra.image }}" alt=""/>
+            {% endif %}
+            <span class="list-item-title">
                 {{ subsection.title }}
             </span>
-            <span class="is-pulled-right">
+            <span class="list-item-center"></span>
+            <span>
                 {{ subsection.pages | length }} pages
             </span>
         </a>

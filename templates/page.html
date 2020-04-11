@@ -1,23 +1,25 @@
 {% extends "base.html" %}
 
 {% block content %}
-<nav class="breadcrumb" aria-label="breadcrumb">
-    <ul>
-        {% for ancestor_path in page.ancestors %}
-            {% set ancestor = get_section(path=ancestor_path) %}
-            <li><a href={{ ancestor.permalink }}>{{ ancestor.title }}</a></li>
-        {% endfor %}
-        <li><a href={{ page.permalink }}>{{ page.title }}</a></li>
-    </ul>
-</nav>
+    <nav class="breadcrumb" aria-label="breadcrumb">
+        <ul>
+            {% for ancestor_path in page.ancestors %}
+                {% set ancestor = get_section(path=ancestor_path) %}
+                <li><a href={{ ancestor.permalink }}>{{ ancestor.title }}</a></li>
+            {% endfor %}
+            <li><a href={{ page.permalink }}>{{ page.title }}</a></li>
+        </ul>
+    </nav>
 
-<h1 class="title">
-    {{ page.title }}
-</h1>
+    <h1 class="title">
+        {{ page.title }}
+    </h1>
 
-<p class="subtitle">
-    {{ page.date }}
-</p>
+    <p class="subtitle">
+        {{ page.date }}
+    </p>
 
-{{ page.content | safe }}
+    <div class="page-content">
+        {{ page.content | safe }}
+    </div>
 {% endblock content %}

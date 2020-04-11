@@ -1,6 +1,6 @@
 +++
 title = "Octoprint"
-date = 2014-09-01
+date = 2016-12-16
 +++
 
 After some time of using the printer tethered to my laptop over USB, I decided that there was a better solution. After some web searching, I came across a web server called [Octoprint](http://octoprint.org/). It is designed to run on a small Linux board such as a [Raspberry Pi](https://www.raspberrypi.org/), and provides a nice web interface too your printer. It looked like the exact solution to my problem, so I set it up on a Pi that I had laying around. Once it was set up, it work wonderfully. It has since been running on a raspberry pi on my printer, and is the only way that I connect to it. I have used every model B Pi to run it, from the original Pi B rev 1 with only 256MB RAM to the new Pi 3 with 1.2GHz and 1G RAM. I have closely followed the development of Octoprint, as multiple print head support was originally only available on the development branch.

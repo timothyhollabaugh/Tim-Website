@@ -4,37 +4,30 @@
     <head>
         <meta charset="utf-8">
         <title>Tim's Website</title>
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+        <!--<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">-->
+        <link rel="stylesheet" href="/style.css">
+        <link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/zilla-slab.css">
     </head>
 
     <body>
-        <nav class="navbar is-dark" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item has-text-weight-bold" href="/">
-                    Tim's Website
-                </a>
-            </div>
-            <div class="navbar-menu">
-                <div class="navbar-start">
-                    <a class="navbar-item" href="/projects">
-                        Projects
-                    </a>
-                </div>
-                <div class="navbar-end">
-                    <a class="navbar-item" href="https://github.com/timothyhollabaugh">
-                        <img src="/github.svg"/ alt="Github Profile">
-                    </a>
-                    <a class="navbar-item" href="https://gitlab.com/timothyhollabaugh">
-                        <img src="/gitlab.svg"/ alt="Gitlab Profile">
-                    </a>
-                </div>
-            </div>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <a class="navbar-brand" href="/">
+                Tim's Website
+            </a>
+            <a class="navbar-item" href="/projects">
+                Projects
+            </a>
+            <div class="navbar-item navbar-center"></div>
+            <a class="navbar-item navbar-end" href="https://github.com/timothyhollabaugh">
+                <img src="/github.svg"/ alt="Github Profile">
+            </a>
+            <a class="navbar-item navbar-end" href="https://gitlab.com/timothyhollabaugh">
+                <img src="/gitlab.svg"/ alt="Gitlab Profile">
+            </a>
         </nav>
-        <section class="section">
-            <div class="container">
-                {% block content %} {% endblock %}
-            </div>
-        </section>
+        <div class="container">
+            {% block content %} {% endblock %}
+        </div>
     </body>
 
 </html>
