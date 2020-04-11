@@ -128,3 +128,15 @@ h1 {
 .page-content img {
   height: 256px;
 }
+
+.images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.images a {
+  padding: 0.5em;
+  margin: 0.5em;
+  border: 1px solid #444444;
+}
